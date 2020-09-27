@@ -132,4 +132,6 @@ Symposium on Information, Computer and Communications Security (pp. 345-350).
 Massachusetts Institute of Technology. (n.d.). MIT Places Database For Scene Recognition. 
 Retrieved June 15, 2020, from http://places.csail.mit.edu/browser.html
 
+[Back](/)
+
 

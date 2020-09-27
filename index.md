@@ -3,7 +3,7 @@
 [Resume](/resume.md)
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Scene Recognition](/ml_scene.md)
 
 ---
 

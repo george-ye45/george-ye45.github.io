@@ -1,9 +1,5 @@
 ## Portfolio
 
----
-
-### Category Name 1 
-
 [Resume](/resume.md)
 
 ---

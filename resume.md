@@ -1,7 +1,3 @@
-<div align="center">
-    <img src = "./images/CareerImage.png"/>
-</div>
-
 ## <ins>Education</ins>
 
 Georgia Institute of Technology <br/>

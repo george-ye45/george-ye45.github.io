@@ -1,3 +1,7 @@
+## About Me
+
+---
+
 ## Resume
 
 [Resume](/resume.md)
@@ -10,9 +14,4 @@
 <br/>
 [Coding Practice Web App](https://codingwebapp.herokuapp.com/)
 
----
-  Contact       | Info
-  ------------- | -------------
-  Email         | george.ye45@gatech.edu
-  Cell Phone    | 678 - 365 - 1412
 

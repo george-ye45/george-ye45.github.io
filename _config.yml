@@ -1,8 +1,19 @@
 title: George Ye # your name (or website title) here
 logo: "/images/Profile.png" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
-  <br><br>
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">The table header</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>The table body</td>
+            <td>with two columns</td>
+        </tr>
+    </tbody>
+</table>
   Second description 
   <br><br>
   <a href="https://www.linkedin.com/in/george-ye-45g/">View My LinkedIn Profile</a> 

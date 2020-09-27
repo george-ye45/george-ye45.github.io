@@ -1,8 +1,14 @@
-## Portfolio
+## Resume
 
 [Resume](/resume.md)
 
-[Scene Recognition](/ml_scene.md)
+--
 
-[Coding Web App](https://codingwebapp.herokuapp.com/)
+## Projects
+
+[Scene Recognition with Machine Learning](/ml_scene.md)
+
+--
+
+[Coding Practice Web App](https://codingwebapp.herokuapp.com/)
 

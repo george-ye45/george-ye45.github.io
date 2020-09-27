@@ -12,8 +12,8 @@
 
 ---
 ## Contact Info
-  First Header  | Second Header
+    | 
   ------------- | -------------
-  Content Cell  | Content Cell
-  Content Cell  | Content Cell
+  Email  | george.ye45@gatech.edu
+  Cell Phone  | 678 - 365 - 1412
 

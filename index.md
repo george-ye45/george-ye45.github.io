@@ -12,7 +12,7 @@
 
 ---
 ## Contact Info
-Email: george.ye45@gatech.edu
-<br/>
-Phone Number: 678-365-1412
+  ------------- | -------------
+  Email         | george.ye45@gatech.edu
+  Phone Number  | 678 - 365 - 1412
 

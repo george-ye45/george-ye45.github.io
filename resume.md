@@ -71,3 +71,5 @@ May 2017 – August 2017
 * Assembled and led a team to donate interview and work clothes for ex-convicts
 * Liaised between various stakeholders such as the Archdiocese of Atlanta, Goodwill,
 and alteration/dry cleaning stores to provide clothes and shoes 
+
+[Back](/)

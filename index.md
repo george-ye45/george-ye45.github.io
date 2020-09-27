@@ -11,7 +11,6 @@
 [Coding Practice Web App](https://codingwebapp.herokuapp.com/)
 
 ---
-## Contact Info
   Contact       | Info
   ------------- | -------------
   Email         | george.ye45@gatech.edu

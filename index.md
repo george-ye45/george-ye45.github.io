@@ -1,4 +1,5 @@
 ## About Me
+Hello! I am an undergraduate computer science major at the Georgia Institute of Technology with an expected graduation date on May 2022.  
 
 ---
 

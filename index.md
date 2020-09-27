@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Project 1 Title](/resume)
+[Project 1 Title](/resume.md)
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)

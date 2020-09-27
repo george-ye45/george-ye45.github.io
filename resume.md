@@ -1,3 +1,5 @@
+# Resume
+
 ## <ins>Education</ins>
 
 Georgia Institute of Technology <br/>

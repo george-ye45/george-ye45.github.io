@@ -6,7 +6,7 @@ Hello! I am an undergraduate computer science major at the Georgia Institute of 
 
 ## Resume
 
-[Resume](/resume.md)
+[Resume](/Resume.pdf)
 
 ---
 

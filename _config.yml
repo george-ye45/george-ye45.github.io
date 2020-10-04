@@ -6,10 +6,6 @@ description: > # your text below (remove <br> elements if you don't need line br
   Phone: 678-365-1412 
   <br><br>
   <a href="https://www.linkedin.com/in/george-ye-45g/">View My LinkedIn Profile</a> 
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
 
   
 theme: jekyll-theme-minimal

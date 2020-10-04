@@ -6,10 +6,6 @@ description: > # your text below (remove <br> elements if you don't need line br
   Phone: 678-365-1412 
   <br><br>
   <a href="https://www.linkedin.com/in/george-ye-45g/">View My LinkedIn Profile</a> 
-github:
-  is_project_page: false  
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
   
 theme: jekyll-theme-minimal

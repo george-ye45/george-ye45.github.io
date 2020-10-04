@@ -14,6 +14,6 @@ Hello! I am an undergraduate computer science major at the Georgia Institute of 
 
 [Scene Recognition with Machine Learning (Team Project)](/ml_scene.md)
 <br/>
-[Coding Practice Web App (Personal Project)](https://codingwebapp.herokuapp.com/)
+[Coding Practice Web App (Personal Project)](https://codetracer.herokuapp.com/)
 
 

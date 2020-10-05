@@ -3,21 +3,25 @@
   <div class="tab">
     <button class="tablinks" onclick="clickHandle(event, 'Education')">Education</button>
     <button class="tablinks" onclick="clickHandle(event, 'Work Experience')">Work Experience</button>
-    <link class = "tablinks" href = 'ml_scene.md'>Projects</link>
-    <link class = "tablinks" href = 'Resume.pdf'>Resume</link>
   </div>
 
-  <div id="Resume" class="tabcontent">
-    <h3>Meowww.</h3>
+  <div id="Education" class="tabcontent">
+    <zero-md src="ml_scene.md"></zero-md>
   </div>
 
-  <div id="Projects" class="tabcontent">
+  <div id="Work Experience" class="tabcontent">
     <h3>Rawrrr.</h3>
   </div>
 
   <div id="Dog" class="tabcontent">
     <h3>Bork Bork.</h3>
 </div>
+
+<!-- Lightweight client-side loader that feature-detects and load polyfills only when necessary -->
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+
+<!-- Load the element definition -->
+<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
 
 <script>
 function clickHandle(evt, animalName) {

@@ -1,46 +1,45 @@
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<div class="w3-container">
-
-  <div class="w3-row">
-    <a href="javascript:void(0)" onclick="openCity(event, 'London');">
-      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">London</div>
-    </a>
-    <a href="javascript:void(0)" onclick="openCity(event, 'Paris');">
-      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Paris</div>
-    </a>
-    <a href="javascript:void(0)" onclick="openCity(event, 'Tokyo');">
-      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Tokyo</div>
-    </a>
+<head>
+  <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+  <h3>Click on the tabs below:</h3>
+  <div class="tab">
+    <button class="tablinks" onclick="clickHandle(event, 'Cat')">Cat</button>
+    <button class="tablinks" onclick="clickHandle(event, 'Bear')">Bear</button>
+    <button class="tablinks" onclick="clickHandle(event, 'Dog')">Dog</button>
   </div>
 
-  <div id="London" class="w3-container city" style="display:none">
-    <h2>London</h2>
-    <p>London is the capital city of England.</p>
+  <div id="Cat" class="tabcontent">
+    <h3>Meowww.</h3>
   </div>
 
-  <div id="Paris" class="w3-container city" style="display:none">
-    <h2>Paris</h2>
-    <p>Paris is the capital of France.</p> 
+  <div id="Bear" class="tabcontent">
+    <h3>Rawrrr.</h3>
   </div>
 
-  <div id="Tokyo" class="w3-container city" style="display:none">
-    <h2>Tokyo</h2>
-    <p>Tokyo is the capital of Japan.</p>
-  </div>
+  <div id="Dog" class="tabcontent">
+    <h3>Bork Bork.</h3>
 </div>
 
 <script>
-function openCity(evt, cityName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("city");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+function clickHandle(evt, animalName) {
+  let i, tabcontent, tablinks;
+
+  // This is to clear the previous clicked content.
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
   }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+
+  // Set the tab to be "active".
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.firstElementChild.className += " w3-border-red";
+
+  // Display the clicked tab and set it to active.
+  document.getElementById(animalName).style.display = "block";
+  evt.currentTarget.className += " active";
 }
 </script>
+</body>

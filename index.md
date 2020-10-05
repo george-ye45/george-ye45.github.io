@@ -3,8 +3,8 @@
   <div class="tab">
     <button class="tablinks" onclick="clickHandle(event, 'Education')">Education</button>
     <button class="tablinks" onclick="clickHandle(event, 'Work Experience')">Work Experience</button>
-    <link class = "tablinks" href = 'ml_scene.md'>
-    <link class = "tablinks" href = 'Resume.pdf'/>
+    <link class = "tablinks" href = 'ml_scene.md'>Projects</link>
+    <link class = "tablinks" href = 'Resume.pdf'>Resume</link>
   </div>
 
   <div id="Resume" class="tabcontent">

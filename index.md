@@ -10,7 +10,7 @@
   </div>
 
   <div id="Projects" class="tabcontent">
-    <a href = 'ml_scene.md'>Scene Recognition with Machine Learning</a>
+    <a href = '/ml_scene.md'>Scene Recognition with Machine Learning</a>
   </div>
 
   <div id="Dog" class="tabcontent">

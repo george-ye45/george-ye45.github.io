@@ -1,12 +1,8 @@
 <head>
-	<meta charset="utf-8">
-	<meta content="IE=edge" http-equiv="X-UA-Compatible">
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<meta name="author" content="John Uberbacher">
 	<title>CSS - Tabs</title>
 	
 	<!-- CSS -->
-	<link href="style.css" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet">
 	
 	<!-- Fonts  -->
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,600italic,600,700italic' rel='stylesheet' type='text/css'>	

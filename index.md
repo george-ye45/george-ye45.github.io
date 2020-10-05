@@ -1,16 +1,16 @@
 <body>
   <link rel="stylesheet" href="styles.css">
   <div class="tab">
-    <button class="tablinks" onclick="clickHandle(event, 'Cat')">Cat</button>
-    <button class="tablinks" onclick="clickHandle(event, 'Bear')">Bear</button>
+    <button class="tablinks" onclick="clickHandle(event, 'Resume')">Resume</button>
+    <button class="tablinks" onclick="clickHandle(event, 'Projects')">Projects</button>
     <button class="tablinks" onclick="clickHandle(event, 'Dog')">Dog</button>
   </div>
 
-  <div id="Cat" class="tabcontent">
+  <div id="Resume" class="tabcontent">
     <h3>Meowww.</h3>
   </div>
 
-  <div id="Bear" class="tabcontent">
+  <div id="Projects" class="tabcontent">
     <h3>Rawrrr.</h3>
   </div>
 

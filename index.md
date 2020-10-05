@@ -2,15 +2,15 @@
   <link rel="stylesheet" href="styles.css">
   <div class="tab">
     <button class="tablinks" onclick="clickHandle(event, 'Resume')">Resume</button>
-    <button class="tablinks" onclick="clickHandle(event, 'Work Experience')">Work Experience</button>
+    <button class="tablinks" onclick="clickHandle(event, 'Projects')">Projects</button>
   </div>
 
   <div id="Resume" class="tabcontent">
     <zero-md src="resume.md"></zero-md>
   </div>
 
-  <div id="Work Experience" class="tabcontent">
-    <h3>Rawrrr.</h3>
+  <div id="Projects" class="tabcontent">
+    <a href = 'ml_scene.md'>Scene Recognition with Machine Learning</a>
   </div>
 
   <div id="Dog" class="tabcontent">

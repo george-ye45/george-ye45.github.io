@@ -1,12 +1,12 @@
 <body>
   <link rel="stylesheet" href="styles.css">
   <div class="tab">
-    <button class="tablinks" onclick="clickHandle(event, 'Education')">Education</button>
+    <button class="tablinks" onclick="clickHandle(event, 'Resume')">Resume</button>
     <button class="tablinks" onclick="clickHandle(event, 'Work Experience')">Work Experience</button>
   </div>
 
-  <div id="Education" class="tabcontent">
-    <zero-md src="ml_scene.md"></zero-md>
+  <div id="Resume" class="tabcontent">
+    <zero-md src="resume.md"></zero-md>
   </div>
 
   <div id="Work Experience" class="tabcontent">

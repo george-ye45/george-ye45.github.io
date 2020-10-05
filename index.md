@@ -1,6 +1,5 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <div class="w3-container">
-  <h2>Tabs in a Grid</h2>
 
   <div class="w3-row">
     <a href="javascript:void(0)" onclick="openCity(event, 'London');">

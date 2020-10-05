@@ -1,11 +1,12 @@
 ## About Me
 Hello! I am an undergraduate computer science major at the Georgia Institute of Technology with an expected graduation date on May 2022. <br/> I have previous internship experience in Full Stack Web App Development and IT Support, and I am currently looking for a summer 2021 internship.
 
-| Education   |      Skills and Proficiencies      |
+|          |     Education |
 |----------|:-------------:|
-| col 1 is |  left-aligned | 
-| col 2 is |    centered   |
-| col 3 is | right-aligned |
+| School   |  Georgia Institute of Technology | 
+| Major    |    BSc in Computer Science   |
+| GPA      | 3.9/4.0 |
+| Expected Graduation| May 2022 |
 
 [Resume](/Resume.pdf)
 

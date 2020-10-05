@@ -1,18 +1,36 @@
-## About Me
-Hello! I am an undergraduate computer science major at the Georgia Institute of Technology with an expected graduation date on May 2022. I have previous internship experience in Full Stack Web App Development and IT Support. I am currently looking for a summer 2021 internship.
+<div class="w3-container">
+  <h2>Tabs</h2>
+  <p>Tabs are perfect for single page web applications, or for web pages capable of displaying different subjects. Click on the links below.</p>
+</div>
 
----
+<div class="w3-bar w3-black">
+  <button class="w3-bar-item w3-button" onclick="openCity('London')">London</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Paris</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Tokyo</button>
+</div>
 
-## Resume
+<div id="London" class="w3-container city">
+  <h2>London</h2>
+  <p>London is the capital city of England.</p>
+</div>
 
-[Resume](/Resume.pdf)
+<div id="Paris" class="w3-container city" style="display:none">
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p> 
+</div>
 
----
+<div id="Tokyo" class="w3-container city" style="display:none">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
 
-## Projects
-
-[Scene Recognition with Machine Learning (Team Project)](/ml_scene.md)
-<br/>
-[Online Compiler and Coding Practice Web App (Personal Project)](https://codetracer.herokuapp.com/)
-<br/>
-[Twitter Bot (Personal Project)](https://github.com/george-ye45/twitter-bot)
+<script>
+function openCity(cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(cityName).style.display = "block";  
+}
+</script>

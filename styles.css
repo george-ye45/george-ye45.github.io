@@ -1,160 +1,174 @@
-@import "compass/css3";
-
-@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
-
-$color: rgba(22, 195, 255,0.5);
-$border: rgba(0,0,0,0.2);
-$background: #fafafa;
-
-$darkcolor: rgba(175,227,100, 0.6);
-$darkborder: rgba(255,255,255, 0.3);
-$darkbackground: #333;
-
-.sexytabs > ul {
-  
-  text-align: center; font-weight: 500;
-  margin: 50px 0 0; padding: 0; position: relative;
-  border-bottom: 1px solid $border; z-index: 1;
-  
-  > li {
-    
-    display: inline-block; background: $background;
-    padding: 0.6em 0; position: relative; width: 33%; margin: 0 0 0 -4px;
-    
-    &:before,
-    &:after { opacity: 0; transition: 0.3s ease; }
-    
-    &.ui-tabs-active:before, &.ui-tabs-active:after,
-    &.ui-state-hover:before, &.ui-state-hover:after,
-    &.ui-state-focus:before, &.ui-state-focus:after{ opacity: 1; }
-    
-    // this is the shadow under the text/mask
-    &:before,
-    &.ui-state-active.ui-state-hover:before,
-    &.ui-state-active.ui-state-focus:before{
-      content: "";
-      position: absolute;
-      z-index: -1;
-      box-shadow: 0 2px 3px $color;
-      top: 50%; bottom: 0px; left: 5px; right: 5px;
-      border-radius: 100px / 10px; 
-    }
-    
-    // this is the "diamond" mask that creates the
-    // nice indent effect.
-    &:after,
-    &.ui-state-active.ui-state-hover:after,
-    &.ui-state-active.ui-state-focus:after{
-      content: ""; background: $background;
-      position: absolute;
-      width: 12px; height: 12px;
-      left: 50%; bottom: -6px; margin-left: -6px;
-      transform: rotate(45deg);
-      box-shadow: 
-        inset 3px 3px 3px $color, 
-        inset 1px 1px 1px opacify($border,0.1);
-      
-    }
-    &.ui-state-hover:before,
-    &.ui-state-focus:before{
-      box-shadow: 0 2px 3px $border;
-    }
-    &.ui-state-hover:after,
-    &.ui-state-focus:after{
-      box-shadow: 
-        inset 3px 3px 3px $border, 
-        inset 1px 1px 1px opacify($border,0.1);
-    }
-    &.ui-state-focus a {
-      text-decoration: underline;  
-    }
-    
-    &:focus { outline: none; }
-    
-    a {
-      
-      color: #444; text-decoration: none;
-      
-      &:focus { outline: none; }
-      span { position: relative; top: -0.5em; }
-      
-    }
-  }
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro);
+.tab-wrap {
+	-webkit-transition: 0.3s box-shadow ease;
+	transition: 0.3s box-shadow ease;
+	border-radius: 6px;
+	max-width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	  -ms-flex-wrap: wrap;
+		  flex-wrap: wrap;
+	position: relative;
+	list-style: none;
+	background-color: #fff;
+	margin: 40px 0;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.tab-wrap:hover {
+	box-shadow: 0 12px 23px rgba(0, 0, 0, 0.23), 0 10px 10px rgba(0, 0, 0, 0.19);
 }
 
-
-.sexytabs.dark > ul {
-  
-  border-bottom-color: $darkborder;
-  
-  > li {
-    
-    background: $darkbackground;
-    
-    
-    // this is the shadow under the text/mask
-    &:before,
-    &.ui-state-active.ui-state-hover:before,
-    &.ui-state-active.ui-state-focus:before {
-      box-shadow: 0 2px 3px $darkborder;
-    }
-    
-    // this is the "diamond" mask that creates the
-    // nice indent effect.
-    &:after,
-    &.ui-state-active.ui-state-hover:after,
-    &.ui-state-active.ui-state-focus:after{
-      background: $darkbackground;
-      box-shadow: 
-        inset 3px 3px 3px $darkborder, 
-        inset 1px 1px 1px opacify($darkborder,0.2);
-    }
-    &.ui-state-hover:before,
-    &.ui-state-focus:before{
-      box-shadow: none;
-    }
-    &.ui-state-hover:after,
-    &.ui-state-focus:after{
-      box-shadow: inset 1px 1px 0px opacify($darkborder,0.1);
-    }
-    
-    a {
-      color: white;
-    }
-  }
+.tab {
+	display: none;
+}
+.tab:checked:nth-of-type(1) ~ .tab__content:nth-of-type(1) {
+	opacity: 1;
+	-webkit-transition: 0.5s opacity ease-in, 0.2s transform ease;
+	transition: 0.5s opacity ease-in, 0.2s transform ease;
+	position: relative;
+	top: 0;
+	z-index: 100;
+	-webkit-transform: translateY(0px);
+		  transform: translateY(0px);
+	text-shadow: 0 0 0;
+}
+.tab:checked:nth-of-type(2) ~ .tab__content:nth-of-type(2) {
+	opacity: 1;
+	-webkit-transition: 0.5s opacity ease-in, 0.2s transform ease;
+	transition: 0.5s opacity ease-in, 0.2s transform ease;
+	position: relative;
+	top: 0;
+	z-index: 100;
+	-webkit-transform: translateY(0px);
+		  transform: translateY(0px);
+	text-shadow: 0 0 0;
+}
+.tab:checked:nth-of-type(3) ~ .tab__content:nth-of-type(3) {
+	opacity: 1;
+	-webkit-transition: 0.5s opacity ease-in, 0.2s transform ease;
+	transition: 0.5s opacity ease-in, 0.2s transform ease;
+	position: relative;
+	top: 0;
+	z-index: 100;
+	-webkit-transform: translateY(0px);
+		  transform: translateY(0px);
+	text-shadow: 0 0 0;
+}
+.tab:checked:nth-of-type(4) ~ .tab__content:nth-of-type(4) {
+	opacity: 1;
+	-webkit-transition: 0.5s opacity ease-in, 0.2s transform ease;
+	transition: 0.5s opacity ease-in, 0.2s transform ease;
+	position: relative;
+	top: 0;
+	z-index: 100;
+	-webkit-transform: translateY(0px);
+		  transform: translateY(0px);
+	text-shadow: 0 0 0;
+}
+.tab:first-of-type:not(:last-of-type) + label {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.tab:not(:first-of-type):not(:last-of-type) + label {
+  border-radius: 0;
+}
+.tab:last-of-type:not(:first-of-type) + label {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.tab:checked + label {
+	background-color: #fff;
+	box-shadow: 0 -1px 0 #fff inset;
+	cursor: default;
+}
+.tab:checked + label:hover {
+	box-shadow: 0 -1px 0 #fff inset;
+	background-color: #fff;
+}
+.tab + label {
+	width:100%;	  
+	box-shadow: 0 -1px 0 #eee inset;
+	border-radius: 6px 6px 0 0;
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+	color: #333;
+	-webkit-box-flex: 3;
+	-webkit-flex-grow: 3;
+	  -ms-flex-positive: 3;
+		  flex-grow: 3;
+	text-align: center;
+	background-color: #f2f2f2;
+	-webkit-user-select: none;
+	 -moz-user-select: none;
+	  -ms-user-select: none;
+		  user-select: none;
+	text-align: center;
+	-webkit-transition: 0.3s background-color ease, 0.3s box-shadow ease;
+	transition: 0.3s background-color ease, 0.3s box-shadow ease;
+	height: 50px;
+	box-sizing: border-box;
+	padding: 15px;
+}
+@media (min-width:768px) {
+		
+	.tab + label {
+		width:auto;
+	}
+}
+.tab + label:hover {
+	background-color: #f9f9f9;
+	box-shadow: 0 1px 0 #f4f4f4 inset;
+}
+.tab__content {
+	padding: 10px 25px;
+	background-color: transparent;
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+	opacity: 0;
+	left: 0;
+	-webkit-transform: translateY(-3px);
+		  transform: translateY(-3px);
+	border-radius: 6px;
+	
 }
 
-
-
-
-// misc setup CSS.
-
-img { 
-  width: 60px; float: left; 
-  margin: 0 1em 1em 0; border-radius: 3px; }
-
-body{ 
-  font-size: 1em; background: $background; 
-  font-family: Lato; font-weight: 300;
+/* Boring Styles */
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+	body {
+	font-family: 'Maven Pro', sans-serif;
+	background-color: #e7e7e7;
+	color: #777;
+	padding: 30px 0;
+	min-width:350px;
+}
+h1,
+h2 {
+	margin: 0;
+	color: #444;
+	text-align: center;
 }
 
-h1 { text-align: center; font-size: 20px;  }
-
-.sexytabs { width: 90%; min-width: 360px; margin: auto; }
-.contents { padding: 20px 50px; min-height: 200px; }
-
-.darkpage { 
-  
-  background: #333; 
-  color: white;
-  
+h2 {
+	font-size: 1em;
+	margin-bottom: 30px;
 }
 
-.darkpage,
-.lightpage { padding: 50px 0; }
-
-
-@media screen and (min-width: 1000px) {
-  .darkpage,
-  .lightpage { width: 50%; float: left; padding: 0; }
+p {
+	line-height: 1.6;
+	margin-bottom: 20px;
+}
+.container {
+	max-width:1150px;
+	margin:0 auto;
 }

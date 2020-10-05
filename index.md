@@ -1,5 +1,5 @@
 <body>
-  <link rel="stylesheet" href="styles.css">
+  
   <div class="tab">
     <button class="tablinks" onclick="clickHandle(event, 'Resume')">Resume</button>
     <button class="tablinks" onclick="clickHandle(event, 'Projects')">Projects</button>

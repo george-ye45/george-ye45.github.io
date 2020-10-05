@@ -1,93 +1,98 @@
 <head>
-  <link rel="stylesheet" href="styles.css">
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta name="author" content="John Uberbacher">
+	<title>CSS - Tabs</title>
+	
+	<!-- CSS -->
+	<link href="css/style.css" rel="stylesheet">
+	
+	<!-- Fonts  -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,600italic,600,700italic' rel='stylesheet' type='text/css'>	
+
 </head>
-<h1>Updated for multi-gender dark action, oorah!</h1>
+<body>
+	
+	<a href="https://github.com/johnuberbacher" class="github-corner"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="#e7e7e7" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="#e7e7e7" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+	
+	<div class="container">	
+				
+		<div class="tab-wrap">
+		
+			<input type="radio" id="tab1" name="tabGroup1" class="tab" checked>
+			<label for="tab1">Section One</label>
 
+			<input type="radio" id="tab2" name="tabGroup1" class="tab">
+			<label for="tab2">Section Two</label>
 
-<div class="lightpage">
-  
-<div class="sexytabs">
-  
-  <ul>
-    <li><a href="#Beyonce">
-      <span>Bootylicious</span></a></li>
-    <li><a href="#Fergie">
-      <span>Fergalicious</span></a></li>
-    <li><a href="#Rihanna">
-      <span>Umbrella?</span></a></li>
-  </ul>
-  
-  <div class="contents">
-  <div id="Beyonce">
-    <h2>Beyonce</h2>
-    <img src="http://thumbs.hotnewhiphop.com/public/article/600_1359954424_17651c4dc1a8d1c5ba1c472544c51114.jpeg">
-    <p>American Apparel locavore iPhone wayfarers put a bird on it.  Whatever McSweeney's Banksy letterpress Marfa.  Drinking vinegar PBR synth, tote bag kale chips typewriter shabby chic mlkshk.  Twee Wes Anderson semiotics Blue Bottle Tumblr, locavore ennui squid.  Blog tofu paleo try-hard mustache bicycle rights DIY.  Forage quinoa DIY master cleanse.  Freegan tote bag squid keffiyeh, sriracha try-hard tousled gentrify McSweeney's pickled pork belly Neutra literally.</p>
+			<input type="radio" id="tab3" name="tabGroup1" class="tab">
+			<label for="tab3">Section Three</label>
 
-    <p>Actually synth Thundercats, pug direct trade wayfarers Schlitz. Gluten-free beard pickled wolf, vinyl cliche paleo authentic brunch Blue Bottle chambray keffiyeh Marfa 8-bit post-ironic. Lo-fi fixie occupy small batch. Salvia keytar cliche, occupy Brooklyn disrupt Helvetica gluten-free art party stumptown freegan gastropub cred. Freegan Truffaut keffiyeh Terry Richardson lo-fi, hoodie ennui. Readymade deep v selvage, tote bag church-key authentic flexitarian craft beer four loko biodiesel. VHS hashtag small batch drinking vinegar, wolf distillery YOLO post-ironic narwhal sustainable.</p>
-    
-  </div>
-    
-  <div id="Fergie">
-    <h2>Fergie</h2>
-    <img src="https://si0.twimg.com/profile_images/3282720177/1cfde8d5260721552f31a26cff5ccc22.png">
-    <p>Bushwick semiotics meh artisan, whatever gastropub pop-up narwhal Cosby sweater stumptown VHS synth kogi art party McSweeney's.  Helvetica locavore actually cray paleo.  +1 PBR gentrify, direct trade  narwhal tattooed polaroid Helvetica readymade wolf Tumblr authentic try-hard hella.  Try-hard 90's gentrify art party.  Helvetica Intelligentsia +1, banjo try-hard tote bag organic fashion axe gluten-free chambray stumptown Echo Park beard.  Craft beer DIY beard, roof party tofu plaid sustainable Tonx.  Small batch letterpress salvia sartorial deep v ugh, High Life aesthetic hoodie Neutra Vice freegan flannel.</p>
-    
-  </div>
-    
-  <div id="Rihanna">
-    <h2>Rihanna</h2>
-    <img src="http://s1.evcdn.com/images/block/I0-001/001/867/008-9.jpeg_/rihanna-08.jpeg">
-    <p>Chambray typewriter Odd Future, cliche Wes Anderson High Life Banksy cred bespoke Intelligentsia ethnic. YOLO gluten-free blog kale chips. Cliche Shoreditch church-key direct trade banjo ugh, forage pug meh typewriter yr chillwave wayfarers small batch. Trust fund Carles forage disrupt photo booth. Truffaut lo-fi Schlitz, Blue Bottle hoodie synth Thundercats. Actually cliche put a bird on it kitsch, ethical Thundercats synth drinking vinegar gluten-free lomo try-hard direct trade. Chambray viral you probably haven't heard of them salvia, ugh Pitchfork Terry Richardson selvage master cleanse.</p>
- 
-  </div>
-  </div>
-</div>
+			<div class="tab__content">
+				<h3>Section One</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
 
-</div>
+			<div class="tab__content">
+				<h3>Section Two</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+			</div>
 
+			<div class="tab__content">
+				<h3>Section Three</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+			</div>
 
+		</div>
 
+		<div class="tab-wrap">
+		
+			<input type="radio" id="tab4" name="tabGroup2" class="tab" checked>
+			<label for="tab4">Section One</label>
 
+			<input type="radio" id="tab5" name="tabGroup2" class="tab">
+			<label for="tab5">Section Two</label>
 
+			<input type="radio" id="tab6" name="tabGroup2" class="tab">
+			<label for="tab6">Section Three</label>
+			
+			<input type="radio" id="tab7" name="tabGroup2" class="tab">
+			<label for="tab7">Section Four</label>
 
-<div class="darkpage">
+			<div class="tab__content">
+				<h3>Section One</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
 
-<div class="sexytabs dark">
-  
-  <ul>
-    <li><a href="#Gosling">
-      <span>Jottings</span></a></li>
-    <li><a href="#Timberlake">
-      <span>Benefits</span></a></li>
-    <li><a href="#Lautner">
-      <span>Furry?</span></a></li>
-  </ul>
-  
-  <div class="contents">
-  <div id="Gosling">
-    <h2>Gosling</h2>
-    <img src="http://imworld.aufeminin.com/story/20130805/ryan-gosling-56940_s96cx345cy200.jpg">
-    <p>American Apparel locavore iPhone wayfarers put a bird on it.  Whatever McSweeney's Banksy letterpress Marfa.  Drinking vinegar PBR synth, tote bag kale chips typewriter shabby chic mlkshk.  Twee Wes Anderson semiotics Blue Bottle Tumblr, locavore ennui squid.  Blog tofu paleo try-hard mustache bicycle rights DIY.  Forage quinoa DIY master cleanse.  Freegan tote bag squid keffiyeh, sriracha try-hard tousled gentrify McSweeney's pickled pork belly Neutra literally.</p>
+			<div class="tab__content">
+				<h3>Section Two</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+			</div>
 
-    <p>Actually synth Thundercats, pug direct trade wayfarers Schlitz. Gluten-free beard pickled wolf, vinyl cliche paleo authentic brunch Blue Bottle chambray keffiyeh Marfa 8-bit post-ironic. Lo-fi fixie occupy small batch. Salvia keytar cliche, occupy Brooklyn disrupt Helvetica gluten-free art party stumptown freegan gastropub cred. Freegan Truffaut keffiyeh Terry Richardson lo-fi, hoodie ennui. Readymade deep v selvage, tote bag church-key authentic flexitarian craft beer four loko biodiesel. VHS hashtag small batch drinking vinegar, wolf distillery YOLO post-ironic narwhal sustainable.</p>
-    
-  </div>
-    
-  <div id="Timberlake">
-    <h2>Timberlake</h2>
-    <img src="http://imalbum.aufeminin.com/album/D20121228/894767_Z5RAJN1HEXWRQGYCFUTKD8AVQ8ZMXS_justin-timberlake_H124540_S.jpg">
-    <p>Bushwick semiotics meh artisan, whatever gastropub pop-up narwhal Cosby sweater stumptown VHS synth kogi art party McSweeney's.  Helvetica locavore actually cray paleo.  +1 PBR gentrify, direct trade  narwhal tattooed polaroid Helvetica readymade wolf Tumblr authentic try-hard hella.  Try-hard 90's gentrify art party.  Helvetica Intelligentsia +1, banjo try-hard tote bag organic fashion axe gluten-free chambray stumptown Echo Park beard.  Craft beer DIY beard, roof party tofu plaid sustainable Tonx.  Small batch letterpress salvia sartorial deep v ugh, High Life aesthetic hoodie Neutra Vice freegan flannel.</p>
-    
-  </div>
-    
-  <div id="Lautner">
-    <h2>Lautner</h2>
-    <img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBvPhI8Zh8E1VfV&w=155&h=114&url=http%3A%2F%2Ffiles-cdn.formspring.me%2Fprofile%2F20110812%2Fn4e45d53be5a76_medium.jpg">
-    <p>Chambray typewriter Odd Future, cliche Wes Anderson High Life Banksy cred bespoke Intelligentsia ethnic. YOLO gluten-free blog kale chips. Cliche Shoreditch church-key direct trade banjo ugh, forage pug meh typewriter yr chillwave wayfarers small batch. Trust fund Carles forage disrupt photo booth. Truffaut lo-fi Schlitz, Blue Bottle hoodie synth Thundercats. Actually cliche put a bird on it kitsch, ethical Thundercats synth drinking vinegar gluten-free lomo try-hard direct trade. Chambray viral you probably haven't heard of them salvia, ugh Pitchfork Terry Richardson selvage master cleanse.</p>
- 
-  </div>
-  </div>
-</div>
-  
-  
-</div>
+			<div class="tab__content">
+				<h3>Section Three</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+			</div>
+			
+			<div class="tab__content">
+				<h3>Section Four</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+				<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+			</div>
+		</div>
+				
+	</div>	
+	
+</body>

@@ -6,7 +6,7 @@
 	<title>CSS - Tabs</title>
 	
 	<!-- CSS -->
-	<link href="css/style.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
 	
 	<!-- Fonts  -->
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,600italic,600,700italic' rel='stylesheet' type='text/css'>	

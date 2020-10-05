@@ -1,7 +1,5 @@
-<head>
+<body>
   <link rel="stylesheet" href="styles.css">
- </head>
- <body>
   <h3>Click on the tabs below:</h3>
   <div class="tab">
     <button class="tablinks" onclick="clickHandle(event, 'Cat')">Cat</button>

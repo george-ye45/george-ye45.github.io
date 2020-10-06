@@ -1,0 +1,36 @@
+import React, { Component } from 'react';
+import Link from '@material-ui/core/Link';
+
+class Footer extends Component {
+  render() {
+
+    if(this.props.data){
+      var networks= this.props.data.social.map(function(network){
+        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+      })
+    }
+
+    return (
+      <footer>
+
+     <div className="row">
+        <div className="twelve columns">
+           <ul className="social-links">
+              {networks}
+           </ul>
+
+           <ul className="copyright">
+              <li>Made with React</li>
+              <li>Thanks to <Link rel="noopener" target="_blank" href="https://github.com/tbakerx">Tim Baker</Link> for the template and inspiration!</li>
+              <li>&copy; Copyright 2017 Tim Baker</li>
+           </ul>
+
+        </div>
+        <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>
+     </div>
+  </footer>
+    );
+  }
+}
+
+export default Footer;

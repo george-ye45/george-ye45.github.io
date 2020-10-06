@@ -3,16 +3,14 @@ import Pdf from './../Resume.pdf'
 
 class About extends Component {
   render() {
-     console.log(Pdf)
 
     if(this.props.data){
       var name = this.props.data.name;
       var profilepic= "images/"+this.props.data.image;
-      var bio = this.props.data.bio;
       var phone= this.props.data.phone;
       var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
     }
+    let bio = "Hi! My name is George Ye. Based in Atlanta, GA, I am an undergraduate student pursuing a BSc in Computer Science at the Georgia Institute of Technology. I am currently working part-time as a Full Stack Web App Development Intern at the Georgia Tech Research Institute. Alongside my school work and current job, I love building applications from web apps to simple programs and exploring AI and machine learning applications."
 
     return (
       <section id="about">
@@ -23,11 +21,13 @@ class About extends Component {
          <div className="nine columns main-col">
             <h2>About Me</h2>
 
-            <p>{bio}</p>
+            <p style = {{fontSize: '16px'}}>{bio}</p>
+            
+            <p style = {{fontSize: '16px'}}>I am currently looking for a Summer 2021 Software Development Internship. Please contact me if you would like to get in touch.</p>
             <div className="row">
                <div className="columns contact-details">
                   <h2>Contact Details</h2>
-                  <p className="address">
+                  <p style = {{fontSize: '16px'}} className="address">
 						   <span>{name}</span><br />
 						   <span>{phone}</span><br />
                      <span>{email}</span><br/>						   

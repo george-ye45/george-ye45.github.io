@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Link from '@material-ui/core/Link';
 
 class Footer extends Component {
   render() {
@@ -20,8 +19,7 @@ class Footer extends Component {
            </ul>
 
            <ul className="copyright">
-              <li>Made with React</li>
-              <li>Thanks to <Link rel="noopener" target="_blank" href="https://github.com/tbakerx">Tim Baker</Link> for the template and inspiration!</li>
+              <li>Made in React</li>
               <li>&copy; Copyright 2017 Tim Baker</li>
            </ul>
 

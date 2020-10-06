@@ -87,7 +87,7 @@
       {
         "title":"Scene Recognition with Machine Learning",
         "category":"Analysis of machine learning algorithms on image recognition",
-        "image":"ML_Scene.PNG",
+        "image":"ML_Scene.png",
         "url":"http://www.google.com",
         "description":"Team project analyzing machine learning algorithms on scene recognition. We performed multiclassification on colored images of different sceneries using the MIT Places database and analyzed accuracy on KNN, Decision Tree, Neural Network and CNN"
       },

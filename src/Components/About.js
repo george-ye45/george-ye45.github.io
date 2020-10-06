@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import Pdf from './../Resume.pdf'
 
 class About extends Component {
   render() {
+     console.log(Pdf)
 
     if(this.props.data){
       var name = this.props.data.name;
@@ -34,7 +36,7 @@ class About extends Component {
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href={Pdf} rel="noopener noreferrer" target="_blank" className="button"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>

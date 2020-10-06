@@ -60,26 +60,32 @@ class Resume extends Component {
     </div>
 
     
+    
     <div className="row work">
 
     <div className="three columns header-col">
-            <h1><span style = {{color: '#CCD6F6'}}>Volunteer</span></h1>
+            <h1><span style = {{color: '#CCD6F6'}}>Proficiencies</span></h1>
          </div>
 
          <div className="nine columns main-col">
-         <div ><h3 style = {{color: '#CCD6F6'}}>{"Benton House of Woodstock"}</h3>
-            <p className="info">{"Volunteer"}<span>&bull;</span> <em className="date">{"September 2018 - January 2019"}</em></p>
-            • Spearheaded chess program for senior citizens with dementia.<br/>
-            • Developed a program through chess activities for memory strengthening and fun.<br/>
-            <p> </p>
-        </div>
-        <div ><h3 style = {{color: '#CCD6F6'}}>{"Prison Ministry Clothing Drive"}</h3>
-            <p className="info">{"Volunteer"}<span>&bull;</span> <em className="date">{"May 2017 – August 2017"}</em></p>
-            • Assembled and led a team to donate interview and work clothes for ex-convicts <br/>
-            • Liaised between stakeholders such as Goodwill and alteration stores to provide clothes<br/>
-            • Donated over 30 sets of suits, shoes, ties, work pants and shirts<br/>
-            <p> </p>
-        </div>
+         <div style={{float: "left", width: "50%"}}>
+            <ul style = {{color: '#CCD6F6'}}>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>C</li>
+            <li>Git</li>
+            </ul>
+         </div>
+         <div style={{float: 'right', width: "50%"}}>
+            <ul style = {{color: '#CCD6F6'}}>
+            <li>ReactJS</li>
+            <li>NodeJS/Express</li>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>HTML, CSS</li>
+            </ul>
+         </div>
         </div>
     </div>
    </section>

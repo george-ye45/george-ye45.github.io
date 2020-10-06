@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import pdf from './../ml_scene.pdf'
 
 class Portfolio extends Component {
   render() {
@@ -9,7 +10,7 @@ class Portfolio extends Component {
         var projectImage = 'images/portfolio/'+projects.image;
         return <div key={projects.title} className="columns portfolio-item">
            <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
+            <a rel="noopener" target="_blank" href={projects.url || pdf} title={projects.title}>
                <img alt={projects.title} src={projectImage} />
                <div className="overlay">
                   <div className="portfolio-item-meta">

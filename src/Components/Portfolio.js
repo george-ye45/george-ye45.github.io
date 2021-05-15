@@ -9,8 +9,8 @@ class Portfolio extends Component {
       var projects = this.props.data.projects.map(function(projects){
         var projectImage = 'images/portfolio/'+projects.image;
         return <div key={projects.title} className="columns portfolio-item">
-           <div className="item-wrap">
             <a rel="noopener" target="_blank" href={projects.url || pdf} title={projects.title}>
+            <div className="item-wrap">
                <img alt={projects.title} src={projectImage} />
                <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -19,8 +19,9 @@ class Portfolio extends Component {
                   </div>
                 </div>
               <div className="link-icon"><i className="fa fa-link"></i></div>
+              </div>
             </a>
-          </div>
+
           <p>{projects.description}</p>
         </div>
       })

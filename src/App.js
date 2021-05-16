@@ -105,13 +105,6 @@ let resumeData = {
         "url":"https://www.vip.gatech.edu/teams/vvk",
         "description":"I am working on a VIP (vertically integrated project) team with the aim to create an automated method that starts with the best human algorithms that develop into hybrid algorithms that outperform existing methods."
       },
-      {
-        "title":"Twitter Bot",
-        "category":"Twitter Bot built using python, tweepy, and heroku",
-        "image":"twitter_bot.png",
-        "url":"https://github.com/george-ye45/twitter-bot",
-        "description":"Personal project building a twitter bot that retweets the top 5 search results based on a specific category query each day using Heroku scheduler. The categories currently being queried are politics, science, and entertainment. This twitter bot is live!"
-      }
     ]
   }
 }

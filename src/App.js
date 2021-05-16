@@ -14,7 +14,7 @@ let resumeData = {
     "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
     "image":"profilepic.png",
     "bio":"Hello! I am an undergraduate computer science major at the Georgia Institute of Technology with an expected graduation date on May 2022. I have previous internship experience in Full Stack Web App Development and IT Support, and I am currently looking for a summer 2021 internship.",
-    "contactmessage":"Thank you for your time! I am currently looking for a Summer 2021 Software Development Internship. After reviewing my work and qualifications, please do not hesitate to contact me. My email, phone number, and LinkedIn are below.",
+    "contactmessage":"Thank you for your time! After reviewing my work and qualifications, please do not hesitate to contact me. My email, phone number, and LinkedIn are below.",
     "email": "george.ye45@gatech.edu",
     "phone": "678-365-1412",
     "address":{
@@ -97,6 +97,13 @@ let resumeData = {
         "image":"ML_Scene.png",
         "url":null,
         "description":"Team project analyzing machine learning algorithms on scene recognition. We performed multiclassification on colored images of different sceneries using the MIT Places database and analyzed accuracy on KNN, Decision Tree, Neural Network and CNN"
+      },
+      {
+        "title":"Automated Algorithm Design",
+        "category":"VIP Team: AAD",
+        "image":"VIP.png",
+        "url":"https://www.vip.gatech.edu/teams/vvk",
+        "description":"I am working on a VIP (vertically integrated project) team with the aim to create an automated method that starts with the best human algorithms that develop into hybrid algorithms that outperform existing methods."
       },
       {
         "title":"Twitter Bot",

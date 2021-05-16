@@ -15,8 +15,9 @@ class Resume extends Component {
             <div className="row item">
                <div className="twelve columns">
                <div ><h3 style = {{color: '#CCD6F6'}}>{"Georgia Institute of Technology"}</h3>
-                  <p className="info">{"BSc in Computer Science"}<span>&bull;</span> <em className="date">{"Expected May 2022"}</em></p>
-                  <p>{"GPA: 3.9/4.0"}</p>
+                  <p className="info">{"BS in Computer Science"}<span>&bull;</span> <em className="date">{"Expected May 2022"}</em></p>
+                  <p className="info">{"MS in Computer Science"}<span>&bull;</span> <em className="date">{"Expected May 2023"}</em></p>
+                  <p>{"GPA: 3.94/4.0"}</p>
               </div>
                </div>
             </div>
@@ -31,21 +32,28 @@ class Resume extends Component {
          </div>
 
          <div className="nine columns main-col">
+         <div ><h3 style = {{color: '#CCD6F6'}}>{"Amazon"}</h3>
+            <p className="info">{"Software Development Intern | FinTech"}<span>&bull;</span> <em className="date">{"May 2021 - Present"}</em></p>
+            <p> </p>
+        </div>
          <div ><h3 style = {{color: '#CCD6F6'}}>{"GTRI Cipher Lab"}</h3>
-            <p className="info">{"Full Stack Web App Development Intern"}<span>&bull;</span> <em className="date">{"May 2020 - Present"}</em></p>
-            • Develop in ReactJS, JS, HTML, CSS, and Material UI libraries to build dynamic components.<br/>
-            • Develop in NodeJS and Express for server-side Rest API routes, authentication, and logging.<br/>
-            • Build and manage relational databases with MySQL and NoSQL databases with MongoDB. <br/>
-            • Perform unit testing, function testing, and integration testing. <br/>
-            • Deploy applications using agile/scrum and software development cycle methodologies. <br/>
+            <p className="info">{"Full Stack Web App Development Intern"}<span>&bull;</span> <em className="date">{"May 2020 - December 2020"}</em></p>
+            •	Develop in ReactJS and Material UI to build dynamic and reusable components.<br/>
+            •	Develop in NodeJS to create REST API routes, authentication and security logic, and session management.<br/>
+            •	Design relational databases with MySQL and NoSQL databases with MongoDB.<br/>
+            •	Collaborate with team members on schemas, layouts and code reviews given stakeholder requirements.<br/>
+            •	Apply concepts from algorithm design/data structures in increase efficiency of existing code and components.<br/>
+            •	Follow software development lifecycle and perform unit testing, function testing, and integration testing.<br/>
+            •	Deploy apps on servers through Docker containers/Kubernetes and use agile/scrum methodology.<br/>
+            •	Utilize Git version control with Bitbucket and Gitlab.<br/>
             <p> </p>
         </div>
         <div ><h3 style = {{color: '#CCD6F6'}}>{"Georgia Tech Office of Information Technology"}</h3>
             <p className="info">{"Desktop IT Support"}<span>&bull;</span> <em className="date">{"December 2019 - May 2020"}</em></p>
-            • Assisted clients using ServiceNow, Bomgar, and over the phone.<br/>
-            • Worked with Active Directory, user info with PuTTY, and other IT applications.<br/>
-            • Assisted with device management tasks such as computer imaging and inventory.<br/>
-            • Documented articles to the current IT knowledge base.<br/>
+            •	Provide level 2 technical support for major IT department (500+ users).<br/>
+            •	Assisted users with account setup using Active Directory and achieved high user satisfaction.<br/>
+            •	Rapidly learned to new technologies such as case management system ServiceNow and PuTTY to solve issues.<br/>
+            •	Set up and image 50+ laptops and machines for employees to transition to work at home during COVID.<br/>
             <p> </p>
         </div>
         <div ><h3 style = {{color: '#CCD6F6'}}>{"Self - Employed"}</h3>

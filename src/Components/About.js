@@ -10,7 +10,7 @@ class About extends Component {
       var phone= this.props.data.phone;
       var email = this.props.data.email;
     }
-    let bio = "Hi! My name is George Ye. Based in Atlanta, GA, I am an undergraduate student pursuing a BSc in Computer Science at the Georgia Institute of Technology with an expected graduation date of May 2022. I am currently working part-time as a Full Stack Web App Development Intern at the Georgia Tech Research Institute. Alongside my school work and current job, I love building applications from web apps to simple programs and exploring AI and machine learning applications."
+    let bio = "Hi! My name is George Ye. Based in Atlanta, GA, I am an undergraduate student pursuing a Bachelors/Masters Degree in Computer Science at the Georgia Institute of Technology. I have an expected graduation date of May 2022 for my Bachelor's Degree and May 2023 for my Master's Degree. For Summer 2021, I will be working at Amazon as a software developer intern on their FinTech Team. Alongside my school work and current work, I love building applications from web apps to simple programs and exploring AI and machine learning applications."
 
     return (
       <section id="about">
@@ -23,7 +23,7 @@ class About extends Component {
 
             <p style = {{fontSize: '16px'}}>{bio}</p>
             
-            <p style = {{fontSize: '16px'}}>I am currently looking for a Summer 2021 Software Development Internship. Please contact me if you would like to get in touch.</p>
+            {/* <p style = {{fontSize: '16px'}}>I am currently looking for a Summer 2021 Software Development Internship. Please contact me if you would like to get in touch.</p> */}
             <div className="row">
                <div className="columns contact-details">
                   <h2>Contact Details</h2>

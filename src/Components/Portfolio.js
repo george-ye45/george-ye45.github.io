@@ -39,7 +39,7 @@ class Portfolio extends Component {
             <div id="portfolio-wrapper" style = {{alignContent: 'center'}} className="bgrid-thirds s-bgrid-thirds cf">
                 {projects}
             </div>
-            <h1>Check out my <a href = "https://github.com/george-ye45">github</a> for the source code!</h1>
+            <h1>Check out my <a target="_blank" rel="noopener noreferrer" href = "https://github.com/george-ye45">github</a> for the source code!</h1>
           </div>
       </div>
    </section>

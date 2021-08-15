@@ -34,9 +34,9 @@ class Contact extends Component {
 
          <div className="row">
             <div style = {{display: 'flex', justifyContent: 'space-evenly'}}>
-               <a href = "https://www.linkedin.com/in/george-ye-45g/">LinkedIn</a>
-               <a href="mailto:george.ye45@gmail.com">{email}</a>
-               <a href="tel:6783651412">{phone}</a>
+               <a target="_blank" rel="noopener noreferrer" href = "https://www.linkedin.com/in/george-ye-45g/">LinkedIn</a>
+               <a target="_blank" rel="noopener noreferrer" href="mailto:george.ye45@gmail.com">{email}</a>
+               <a target="_blank" rel="noopener noreferrer" href="tel:6783651412">{phone}</a>
          </div>
       </div>
    </section>

@@ -10,7 +10,8 @@ class About extends Component {
       var phone= this.props.data.phone;
       var email = this.props.data.email;
     }
-    let bio = "Hi! My name is George Ye. Based in Atlanta, GA, I am an undergraduate student pursuing a Bachelors/Masters Degree in Computer Science at the Georgia Institute of Technology. I have an expected graduation date of May 2022 for my Bachelor's Degree and May 2023 for my Master's Degree. For Summer 2021, I will be working at Amazon as a software developer intern on their FinTech Team. Alongside my school work and current work, I love building applications from web apps to simple programs and exploring AI and machine learning applications."
+    let bio = "Hi! My name is George Ye. Based in Atlanta, GA, I am an undergraduate student pursuing a Bachelors/Masters Degree in Computer Science at the Georgia Institute of Technology. I have an expected graduation date of May 2022 for my Bachelor's Degree and May 2023 for my Master's Degree. " + 
+    "For this past summer, I worked as an software engineer intern in AWS FinTech. Alongside my school work and current work, I love building applications from web apps to simple programs and exploring AI and machine learning applications."
 
     return (
       <section id="about">

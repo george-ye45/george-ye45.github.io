@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Pdf from './../CCPCert.pdf'
 
 class Resume extends Component {
   render() {
@@ -115,12 +116,12 @@ class Resume extends Component {
      <div className="nine columns main-col">
      <div style={{float: "left", width: "50%"}}>
         <ul style = {{color: '#CCD6F6'}}>
-        <li>AWS Certified Cloud Practitioner</li>
+        <a href={Pdf} rel="noopener noreferrer" target="_blank" >AWS Certified Cloud Practitioner</a>
         </ul>
      </div>
      <div style={{float: 'right', width: "50%"}}>
             <ul style = {{color: '#CCD6F6'}}>
-               {/* <a target="_blank" rel="noopener noreferrer" href = "https://www.google.com" style = {{textDecoration: 'none'}}>link goes here for certificate</a> */}
+               {/* <a href={Pdf} rel="noopener noreferrer" target="_blank" >See Certificate</a> */}
             </ul>
          </div>
     </div>

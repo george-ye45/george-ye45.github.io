@@ -16,7 +16,7 @@ class Resume extends Component {
                <div className="twelve columns">
                <div ><h3 style = {{color: '#CCD6F6'}}>{"Georgia Institute of Technology"}</h3>
                   <p className="info">{"BS in Computer Science"}<span>&bull;</span> <em className="date">{"Expected May 2022"}</em></p>
-                  <p className="info">{"MS in Computer Science"}<span>&bull;</span> <em className="date">{"Expected May 2023"}</em></p>
+                  {/* <p className="info">{"MS in Computer Science"}<span>&bull;</span> <em className="date">{"Expected May 2023"}</em></p> */}
                   <p>{"GPA: 3.94/4.0"}</p>
               </div>
                </div>

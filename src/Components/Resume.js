@@ -33,8 +33,19 @@ class Resume extends Component {
          </div>
 
          <div className="nine columns main-col">
+         <div ><h3 style = {{color: '#CCD6F6'}}>{"Cowen"}</h3>
+            <p className="info">{"Derivatives Summer Analyst"}<span>&bull;</span> <em className="date">{"June 2022 - August 2022"}</em></p>
+            <ul>
+               {/* <li style = {{listStyleType: 'circle'}}>Build a DevOps SKU cleanup utility to cleanup 120 million+ SKU data from the entire system.</li>
+               <li style = {{listStyleType: 'circle'}}>Utilize AWS services such as Lambda, Step Function, DynamoDB, S3, Event Bridge, and CloudTrail.</li>
+               <li style = {{listStyleType: 'circle'}}>Plan and create a low-level design document working backwards from the customer’s perspective.</li>
+               <li style = {{listStyleType: 'circle'}}>Test all code with mock unit testing, integration testing, and embedded testing.</li>
+               <li style = {{listStyleType: 'circle'}}>Collaborate with full SDEs on extensive code reviews and project design.</li>
+               <li style = {{listStyleType: 'circle'}}>Present finished and working utility demo to AWS FinTech executives.</li> */}
+            </ul>
+        </div>
          <div ><h3 style = {{color: '#CCD6F6'}}>{"Amazon"}</h3>
-            <p className="info">{"Software Development Intern | FinTech"}<span>&bull;</span> <em className="date">{"June 2021 - September 2021"}</em></p>
+            <p className="info">{"Software Engineering Intern | FinTech"}<span>&bull;</span> <em className="date">{"June 2021 - September 2021"}</em></p>
             <ul>
                <li style = {{listStyleType: 'circle'}}>Build a DevOps SKU cleanup utility to cleanup 120 million+ SKU data from the entire system.</li>
                <li style = {{listStyleType: 'circle'}}>Utilize AWS services such as Lambda, Step Function, DynamoDB, S3, Event Bridge, and CloudTrail.</li>

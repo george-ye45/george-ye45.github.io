@@ -20,7 +20,6 @@ class Footer extends Component {
 
            <ul className="copyright">
               <li>Made in React</li>
-              <li>&copy; Copyright 2017 Tim Baker</li>
            </ul>
 
         </div>

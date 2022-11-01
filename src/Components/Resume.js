@@ -16,9 +16,8 @@ class Resume extends Component {
             <div className="row item">
                <div className="twelve columns">
                <div ><h3 style = {{color: '#CCD6F6'}}>{"Georgia Institute of Technology"}</h3>
-                  <p className="info">{"BS in Computer Science"}<span>&bull;</span> <em className="date">{"Expected May 2022"}</em></p>
-                  {/* <p className="info">{"MS in Computer Science"}<span>&bull;</span> <em className="date">{"Expected May 2023"}</em></p> */}
-                  <p>{"GPA: 3.94/4.0"}</p>
+                  <p className="info">{"BS in Computer Science"}<span>&bull;</span> <em className="date">{"2019 - 2022"}</em><span>&bull;</span><em className="date">{"GPA: 3.95"}</em></p>
+                  <p className="info">{"MS in Computer Science"}<span>&bull;</span> <em className="date">{"Expected July 2023"}</em></p>
               </div>
                </div>
             </div>
@@ -33,8 +32,30 @@ class Resume extends Component {
          </div>
 
          <div className="nine columns main-col">
+         <div ><h3 style = {{color: '#CCD6F6'}}>{"Google"}</h3>
+            <p className="info">{"Software Engineer Intern"}<span>&bull;</span> <em className="date">{"August 2022 - November 2022"}</em></p>
+            <ul>
+               {/* <li style = {{listStyleType: 'circle'}}>Build a DevOps SKU cleanup utility to cleanup 120 million+ SKU data from the entire system.</li>
+               <li style = {{listStyleType: 'circle'}}>Utilize AWS services such as Lambda, Step Function, DynamoDB, S3, Event Bridge, and CloudTrail.</li>
+               <li style = {{listStyleType: 'circle'}}>Plan and create a low-level design document working backwards from the customer’s perspective.</li>
+               <li style = {{listStyleType: 'circle'}}>Test all code with mock unit testing, integration testing, and embedded testing.</li>
+               <li style = {{listStyleType: 'circle'}}>Collaborate with full SDEs on extensive code reviews and project design.</li>
+               <li style = {{listStyleType: 'circle'}}>Present finished and working utility demo to AWS FinTech executives.</li> */}
+            </ul>
+        </div>
          <div ><h3 style = {{color: '#CCD6F6'}}>{"Cowen"}</h3>
             <p className="info">{"Derivatives Summer Analyst"}<span>&bull;</span> <em className="date">{"June 2022 - August 2022"}</em></p>
+            <ul>
+               {/* <li style = {{listStyleType: 'circle'}}>Build a DevOps SKU cleanup utility to cleanup 120 million+ SKU data from the entire system.</li>
+               <li style = {{listStyleType: 'circle'}}>Utilize AWS services such as Lambda, Step Function, DynamoDB, S3, Event Bridge, and CloudTrail.</li>
+               <li style = {{listStyleType: 'circle'}}>Plan and create a low-level design document working backwards from the customer’s perspective.</li>
+               <li style = {{listStyleType: 'circle'}}>Test all code with mock unit testing, integration testing, and embedded testing.</li>
+               <li style = {{listStyleType: 'circle'}}>Collaborate with full SDEs on extensive code reviews and project design.</li>
+               <li style = {{listStyleType: 'circle'}}>Present finished and working utility demo to AWS FinTech executives.</li> */}
+            </ul>
+        </div>
+        <div ><h3 style = {{color: '#CCD6F6'}}>{"Southwest Airlines"}</h3>
+            <p className="info">{"Software Engineer Intern"}<span>&bull;</span> <em className="date">{"January 2022 - April 2022"}</em></p>
             <ul>
                {/* <li style = {{listStyleType: 'circle'}}>Build a DevOps SKU cleanup utility to cleanup 120 million+ SKU data from the entire system.</li>
                <li style = {{listStyleType: 'circle'}}>Utilize AWS services such as Lambda, Step Function, DynamoDB, S3, Event Bridge, and CloudTrail.</li>
@@ -65,24 +86,6 @@ class Resume extends Component {
                <li style = {{listStyleType: 'circle'}}>Followed software development lifecycle using agile/scrum methodology and performed code reviews.</li>
                <li style = {{listStyleType: 'circle'}}>Deployed apps on servers through Docker containers/Kubernetes.</li>
                <li style = {{listStyleType: 'circle'}}>Utilized Git version control with Bitbucket and Gitlab.</li>
-            </ul>
-        </div>
-        <div ><h3 style = {{color: '#CCD6F6'}}>{"Georgia Tech Office of Information Technology"}</h3>
-            <p className="info">{"Desktop IT Support"}<span>&bull;</span> <em className="date">{"December 2019 - May 2020"}</em></p>
-            <ul>
-               <li style = {{listStyleType: 'circle'}}>Provided ticket-based technical support up for IT department (500+ users).</li>
-               <li style = {{listStyleType: 'circle'}}>Assisted users with account setup using Active Directory and achieved high user  satisfaction.</li>
-               <li style = {{listStyleType: 'circle'}}>Rapidly learned to new technologies such as case management system ServiceNow and  PuTTY to solve issues.</li>
-               <li style = {{listStyleType: 'circle'}}>Set up and image 50+ laptops and machines for employees to transition to work at home  during COVID.</li>
-            </ul>
-        </div>
-        <div ><h3 style = {{color: '#CCD6F6'}}>{"Self - Employed"}</h3>
-            <p className="info">{"Math Tutor"}<span>&bull;</span> <em className="date">{"September 2017 - May 2019"}</em></p>
-            <ul>
-               <li style = {{listStyleType: 'circle'}}>Communicated with clients on expectations, plans, and strategies.</li>
-               <li style = {{listStyleType: 'circle'}}>Created individualized lesson plans with lectures and homework.</li>
-               <li style = {{listStyleType: 'circle'}}>Utilized time/project management skills to successfully balance business/school.</li>
-               <li style = {{listStyleType: 'circle'}}>Delivered outstanding results and developed long term customer relationships.</li>
             </ul>
         </div>
         </div>

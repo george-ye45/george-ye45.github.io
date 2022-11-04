@@ -15,7 +15,7 @@ let resumeData = {
     "image":"profilepic.png",
     "bio":"Hello! I am an undergraduate computer science major at the Georgia Institute of Technology with an expected graduation date on May 2022. I have previous internship experience in Full Stack Web App Development and IT Support, and I am currently looking for a summer 2021 internship.",
     "contactmessage":"Thank you for your time! After reviewing my work and qualifications, please do not hesitate to contact me. My email, phone number, and LinkedIn are below.",
-    "email": "george.ye45@gatech.edu",
+    "email": "george.ye45@gmail.com",
     "phone": "678-365-1412",
     "address":{
       "city":"Roswell",

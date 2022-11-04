@@ -35,34 +35,27 @@ class Resume extends Component {
          <div ><h3 style = {{color: '#CCD6F6'}}>{"Google"}</h3>
             <p className="info">{"Software Engineer Intern"}<span>&bull;</span> <em className="date">{"August 2022 - November 2022"}</em></p>
             <ul>
-               {/* <li style = {{listStyleType: 'circle'}}>Build a DevOps SKU cleanup utility to cleanup 120 million+ SKU data from the entire system.</li>
-               <li style = {{listStyleType: 'circle'}}>Utilize AWS services such as Lambda, Step Function, DynamoDB, S3, Event Bridge, and CloudTrail.</li>
-               <li style = {{listStyleType: 'circle'}}>Plan and create a low-level design document working backwards from the customer’s perspective.</li>
-               <li style = {{listStyleType: 'circle'}}>Test all code with mock unit testing, integration testing, and embedded testing.</li>
-               <li style = {{listStyleType: 'circle'}}>Collaborate with full SDEs on extensive code reviews and project design.</li>
-               <li style = {{listStyleType: 'circle'}}>Present finished and working utility demo to AWS FinTech executives.</li> */}
+               <li style = {{listStyleType: 'circle'}}>Developed a self-service, publish/subscribe notification infrastructure for anomaly detection alerts and insights
+</li>
+               <li style = {{listStyleType: 'circle'}}>Integrated notification infrastructure with dashboard for users to subscribe to anomalies they care about
+</li>
+               <li style = {{listStyleType: 'circle'}}>Improved user notification experience through reducing false positives, auto-tuning parameters, etc.
+</li>
             </ul>
         </div>
          <div ><h3 style = {{color: '#CCD6F6'}}>{"Cowen"}</h3>
             <p className="info">{"Derivatives Summer Analyst"}<span>&bull;</span> <em className="date">{"June 2022 - August 2022"}</em></p>
             <ul>
-               {/* <li style = {{listStyleType: 'circle'}}>Build a DevOps SKU cleanup utility to cleanup 120 million+ SKU data from the entire system.</li>
-               <li style = {{listStyleType: 'circle'}}>Utilize AWS services such as Lambda, Step Function, DynamoDB, S3, Event Bridge, and CloudTrail.</li>
-               <li style = {{listStyleType: 'circle'}}>Plan and create a low-level design document working backwards from the customer’s perspective.</li>
-               <li style = {{listStyleType: 'circle'}}>Test all code with mock unit testing, integration testing, and embedded testing.</li>
-               <li style = {{listStyleType: 'circle'}}>Collaborate with full SDEs on extensive code reviews and project design.</li>
-               <li style = {{listStyleType: 'circle'}}>Present finished and working utility demo to AWS FinTech executives.</li> */}
+               <li style = {{listStyleType: 'circle'}}>Developed and automated python scripts for minute-minute analysis on earnings, CPI prints, and Fed minutes</li>
+               <li style = {{listStyleType: 'circle'}}>Analyzed options trade ideas based on implied vs. realized vol, vol skew, and IV percentile</li>
+               <li style = {{listStyleType: 'circle'}}>Developed and automated python scripts for creating custom indices on implied correlation for SPY vs. single stock, SPY vs sectors, and sectors vs. single stock</li>
             </ul>
         </div>
         <div ><h3 style = {{color: '#CCD6F6'}}>{"Southwest Airlines"}</h3>
             <p className="info">{"Software Engineer Intern"}<span>&bull;</span> <em className="date">{"January 2022 - April 2022"}</em></p>
             <ul>
-               {/* <li style = {{listStyleType: 'circle'}}>Build a DevOps SKU cleanup utility to cleanup 120 million+ SKU data from the entire system.</li>
-               <li style = {{listStyleType: 'circle'}}>Utilize AWS services such as Lambda, Step Function, DynamoDB, S3, Event Bridge, and CloudTrail.</li>
-               <li style = {{listStyleType: 'circle'}}>Plan and create a low-level design document working backwards from the customer’s perspective.</li>
-               <li style = {{listStyleType: 'circle'}}>Test all code with mock unit testing, integration testing, and embedded testing.</li>
-               <li style = {{listStyleType: 'circle'}}>Collaborate with full SDEs on extensive code reviews and project design.</li>
-               <li style = {{listStyleType: 'circle'}}>Present finished and working utility demo to AWS FinTech executives.</li> */}
+               <li style = {{listStyleType: 'circle'}}>Designed and built events streaming system for processing passenger and flight event data.</li>
+               <li style = {{listStyleType: 'circle'}}>Utilized Java, Apache, and AWS for real time event processing for unbounded, time-sensitive streams of data.</li>
             </ul>
         </div>
          <div ><h3 style = {{color: '#CCD6F6'}}>{"Amazon"}</h3>
